@@ -8,7 +8,8 @@
 
 #### Criação de conta:
 
-[Click aqui](https://console.semantix.cloud/) para acessar a plataforma do SDP.
+Para acessar a plataforma do SDP [click aqui](https://console.semantix.cloud/).
+
 
 
 Para Criar a conta de SDP é necessário....
