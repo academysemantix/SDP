@@ -6,7 +6,10 @@
 ### Exercício Prático
 
 
-* Criação de conta:
+#### Criação de conta:
+
+[Click aqui](https://console.semantix.cloud/) para acessar a plataforma do SDP.
+
 
 Para Criar a conta de SDP é necessário....
 
