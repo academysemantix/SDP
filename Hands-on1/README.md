@@ -8,7 +8,7 @@
 Para realizar esse tutorial, você precisa ter uma **conta de SDP**
 Acesse o site [console.semantix.cloud](https://console.semantix.cloud/) para ter acesso a plataforma do SDP, digite o e-mail e senha enviados via *e-mail* OU CREDENCIAIS e click em "Login to Continue", como apresentada na imagem:
 
-![Tela de Login](https://github.com/academysemantix/SDP/blob/main/Hands-on1/images/tela_login_sdp.png)
+![Tela de Login](images/tela_login_sdp.png)
 
 ### Preparar os Dados:
 
@@ -25,23 +25,23 @@ Now, let's create a Pipeline that will extract the data from a API, in this exam
 
 2-  Then click the "+New Pipeline" button, if you don't have a pipeline it will be in the middle of your screen, otherwise it will be in the top right:
 
-![+ New Pipeline](/img/pipeline/api-component/api_component_2.png)
+![+ New Pipeline](https://docs.semantix.cloud/img/pipeline/api-component/api_component_2.png)
 
 3-  Choose your data source:
 
-![Define Source](/img/pipeline/api-component/api_component_3.png)
+![Define Source](https://docs.semantix.cloud/img/pipeline/api-component/api_component_3.png)
 
 4-  After you chose the data source insert your credentials:
 
-![Define Source](/img/pipeline/api-component/api_component_4.png)
+![Define Source](https://docs.semantix.cloud/img/pipeline/api-component/api_component_4.png)
 
 5-  Select the objects that you want to collect the data from and which table in the raw layer you want it to go to (output path):
 
-![Select Objects](/img/pipeline/api-component/api_component_5.png)
+![Select Objects](https://docs.semantix.cloud/img/pipeline/api-component/api_component_5.png)
 
 6-  And then select your ingestion frequency preference, or customize it using a [cron expression](https://crontab.guru/):
 
-![Schedule your Pipeline](/img/pipeline/api-component/api_component_6.png)
+![Schedule your Pipeline](https://docs.semantix.cloud/img/pipeline/api-component/api_component_6.png)
 
 and easy like that you have created your pipeline that is connected to the shopify API, now your data will be periodically ingested into the raw layer of the data lake. You can also manage and edit your pipeline if you want to, if you want to know how to do that, go to the ["Manage Your Pipeline"](/docs/pipeline/manage-pipeline) section
 
