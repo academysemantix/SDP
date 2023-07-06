@@ -51,7 +51,7 @@ Guia Jobs...
 
 ### Próximos Passos:
 
-## Autores
+## Autor
 
-| [<img src="https://avatars.githubusercontent.com/u/23451074?v=4" width=115><br><sub>Rodrigo Augusto Rebouças</sub>](https://github.com/rodrigo-reboucas) |  [<img src="gitVasco" width=115><br><sub>Vasco Braga</sub>](gitvaso) |
-| :---: | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/23451074?v=4" width=115><br><sub>Rodrigo Augusto Rebouças</sub>](https://github.com/rodrigo-reboucas) | 
+| :---: |
