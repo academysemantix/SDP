@@ -17,50 +17,16 @@ Após logar na plataforma, o próximo passo é preparar os dados.....
 ### Ingerir os Dados:
 
 ## Criar Pipeline
-# Create a Pipeline with a API Connector
-
-Now, let's create a Pipeline that will extract the data from a API, in this example we will be using the Shopify API.
-
-1-  You go to the pipelines using the sidebar and clicking the pipeline symbol: <img src="/img/pipeline.svg" alt="pipeline" width="20px" />
-
-2-  Then click the "+New Pipeline" button, if you don't have a pipeline it will be in the middle of your screen, otherwise it will be in the top right:
-
-![+ New Pipeline](https://docs.semantix.cloud/img/pipeline/api-component/api_component_2.png)
-
-3-  Choose your data source:
-
-![Define Source](https://docs.semantix.cloud/img/pipeline/api-component/api_component_3.png)
-
-4-  After you chose the data source insert your credentials:
-
-![Define Source](https://docs.semantix.cloud/img/pipeline/api-component/api_component_4.png)
-
-5-  Select the objects that you want to collect the data from and which table in the raw layer you want it to go to (output path):
-
-![Select Objects](https://docs.semantix.cloud/img/pipeline/api-component/api_component_5.png)
-
-6-  And then select your ingestion frequency preference, or customize it using a [cron expression](https://crontab.guru/):
-
-![Schedule your Pipeline](https://docs.semantix.cloud/img/pipeline/api-component/api_component_6.png)
-
-and easy like that you have created your pipeline that is connected to the shopify API, now your data will be periodically ingested into the raw layer of the data lake. You can also manage and edit your pipeline if you want to, if you want to know how to do that, go to the ["Manage Your Pipeline"](/docs/pipeline/manage-pipeline) section
-
-### Transformar os Dados:
-
-Guia Jobs...
 
 ### Marketplace:
-Uso do marketplace
-Para acessar o Marketplace e carregar uma das bases disponíveis no ambiente do Data Lake da plataforma SDP.
 
-Em seguida executaremos algumas transformações nos tipos de dados e carregaremos os dados até a base service para que os dados fiquem prontos para utilização na ferramenta de visualização de dados.
+Iremos fazer a ingestão de dados através do nosso marketplace, que contém bases com dados do IBGE, Banco Central, CNAE, ANS, Tesouro Nacional, Bolsa de Valores de São Paulo, Yahoo Finance, Receita Federal, Centro de Estudos Avançados em Economia Aplicada da Universidade de São Paulo, o CEPEA, além de bases com informações sobre investimentos.
 
-No menu lateral, vamos descer até Marketplace e clicar sobre esse ícone.
-<img src="images/logo_marketplace.png" height="20px">
+No menu lateral, clique no menu Marketplace <img src="images/logo_marketplace.png" height="20px">.
 
-A lista de bases de dados disponíveis é apresentada. Podemos ver aqui que há bases com dados do IBGE, Banco Central, CNAE, ANS, Tesouro Nacional, Bolsa de Valores de São Paulo, Yahoo Finance, Receita Federal, Centro de Estudos Avançados em Economia Aplicada da Universidade de São Paulo, o CEPEA, além de bases com informações sobre investimentos.
+Na demonstração, iremos fazer uso da base do Yahoo Finance.
 
-Para esta demonstração, nós iremos utilizar a base do Yahoo Finance. Clique em “View More” para visualizar os detalhes sobre a base. Antes de fazermos a carga da base para o esquema Ró, o qual é o primeiro esquema no Data Lake para a inclusão dos dados, vamos verificar o descritivo sobre a base.
+Clique em __"View More"__ para visualizar os detalhes sobre a base. Antes de fazermos a carga da base para o esquema RAW, o qual é o primeiro esquema no Data Lake para a inclusão dos dados, vamos verificar o descritivo sobre a base.
 
 Trata-se de dados do Yahoo Finance que é um tipo de mídia que faz parte da rede do Yahoo. O Yahoo Finance fornece notícias, dados e comentários financeiros, incluindo cotações de ações, comunicados à imprensa, relatórios financeiros e conteúdo original. Ele também oferece algumas ferramentas online para gerenciar finanças pessoais.
 
@@ -126,6 +92,39 @@ Selecione a tabela “Yahoo_Finance”.
 Na guia “Results” veremos os dados transformados e na descrição da tabela. E logo abaixo da combo box, veremos os atributos com os tipos de dados ajustados.
 
 Pronto! Os dados estão disponíveis para serem utilizados na ferramenta de visualização.
+
+
+# Create a Pipeline with an API Connector
+
+Now, let's create a Pipeline that will extract the data from a API, in this example we will be using the Shopify API.
+
+1-  You go to the pipelines using the sidebar and clicking the pipeline symbol: <img src="/img/pipeline.svg" alt="pipeline" width="20px" />
+
+2-  Then click the "+New Pipeline" button, if you don't have a pipeline it will be in the middle of your screen, otherwise it will be in the top right:
+
+![+ New Pipeline](https://docs.semantix.cloud/img/pipeline/api-component/api_component_2.png)
+
+3-  Choose your data source:
+
+![Define Source](https://docs.semantix.cloud/img/pipeline/api-component/api_component_3.png)
+
+4-  After you chose the data source insert your credentials:
+
+![Define Source](https://docs.semantix.cloud/img/pipeline/api-component/api_component_4.png)
+
+5-  Select the objects that you want to collect the data from and which table in the raw layer you want it to go to (output path):
+
+![Select Objects](https://docs.semantix.cloud/img/pipeline/api-component/api_component_5.png)
+
+6-  And then select your ingestion frequency preference, or customize it using a [cron expression](https://crontab.guru/):
+
+![Schedule your Pipeline](https://docs.semantix.cloud/img/pipeline/api-component/api_component_6.png)
+
+and easy like that you have created your pipeline that is connected to the shopify API, now your data will be periodically ingested into the raw layer of the data lake. You can also manage and edit your pipeline if you want to, if you want to know how to do that, go to the ["Manage Your Pipeline"](/docs/pipeline/manage-pipeline) section
+
+### Transformar os Dados:
+
+Guia Jobs...
 
 
 ## Autor
