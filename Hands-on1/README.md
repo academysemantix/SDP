@@ -56,7 +56,7 @@ Para acessar o Marketplace e carregar uma das bases disponíveis no ambiente do 
 Em seguida executaremos algumas transformações nos tipos de dados e carregaremos os dados até a base service para que os dados fiquem prontos para utilização na ferramenta de visualização de dados.
 
 No menu lateral, vamos descer até Marketplace e clicar sobre esse ícone.
-<img src="images/logo_marketplace.png" height="10px">
+<img src="images/logo_marketplace.png" height="20px">
 
 A lista de bases de dados disponíveis é apresentada. Podemos ver aqui que há bases com dados do IBGE, Banco Central, CNAE, ANS, Tesouro Nacional, Bolsa de Valores de São Paulo, Yahoo Finance, Receita Federal, Centro de Estudos Avançados em Economia Aplicada da Universidade de São Paulo, o CEPEA, além de bases com informações sobre investimentos.
 
