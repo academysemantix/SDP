@@ -24,7 +24,7 @@ Iremos fazer a ingestão de dados através do nosso marketplace, que contém bas
 
 No menu lateral, clique no menu Marketplace <img src="images/logo_marketplace.png" height="20px">.
 
-Na demonstração, iremos fazer uso da base do Yahoo Finance.
+Neste exemplo, iremos fazer uso da base do Yahoo Finance.
 
 Clique em __"View More"__ para visualizar os detalhes sobre a base. Antes de fazermos a carga da base para o esquema RAW, o qual é o primeiro esquema no Data Lake para a inclusão dos dados, vamos verificar o descritivo sobre a base.
 
