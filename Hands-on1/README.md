@@ -46,6 +46,7 @@ Para fazer a cópia dos dados, basta clicar em __"Add Base"__.
 Será apresentada uma caixa de diálogo pedindo a confirmação. Clique em “Load Base”.
 
 Em poucos segundos a base será carregada no esquema Ró da plataforma e uma tela informando que o processo foi concluído com sucesso será exibida. 
+![Load Dataset](images/DataSet%Load.png)
 
 Clique em “Go to Database”. A plataforme direcionará para o módulo “Visualize”.
 
