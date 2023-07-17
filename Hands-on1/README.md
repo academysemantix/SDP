@@ -36,16 +36,12 @@ Observando as informações disponíveis no dataset, podemos ver que se trata es
 Podemos ver na lista de informações sobre o dataset que ele foi atualizado em 2023, contém uma série histórica desde 2000, o tamanho da base é de 1,5 Gigabyte, possui 12 colunas e 11.036.181 de registros sobre cotações.
 ![Tickers Dataset](images/DataSet%20Tickers.png)
 
-Ao clicar em “Ticker – Sample” a plataforma fornecerá um arquivo CSV com uma amostra dos dados do dataset.
+Para compreender melhor os dados, pode clicar nas opções:
+* __Tickers – Sample:__ Arquivo CSV com uma amostra dos dados do dataset;
+* __Tickers – Data Dictionary:__ Arquivo csv com o dicionário de Dados do dataset.
+
+Para fazer a cópia dos dados, basta clicar em __"Add Base"__.
 ![Adicionar Dataset](images/DataSet%20Add.png)
-
-Ao abrir esse arquivo, podemos ver todos os atributos envolvidos e uma amostra de 5 registros do dataset.
-
-Ao clicar em “Ticker – Data Dictionary” a plataforma fornecerá um arquivo Excel com o Dicionário de Dados do data set. Ao abrir esse arquivo, podemos ver os nomes dos atributos, os tipos de dados e a descrição de cada atributo, e se o atributo possui dicionário e se trata de dados sensíveis segundo a LGPD. Há ainda uma coluna com observação sobre o atributo.
-
-Vamos fazer a cópia dos dados. O processo é muito simples e rápido. 
-
-Para isto, basta clicar em “Add Base”.
 
 Será apresentada uma caixa de diálogo pedindo a confirmação. Clique em “Load Base”.
 
