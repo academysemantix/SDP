@@ -34,10 +34,10 @@ Trata-se de dados do Yahoo Finance que é um tipo de mídia que faz parte da red
 Observando as informações disponíveis no dataset, podemos ver que se trata especificamente de dados de cotações do mercado de ações americano.
 
 Podemos ver na lista de informações sobre o dataset que ele foi atualizado em 2023, contém uma série histórica desde 2000, o tamanho da base é de 1,5 Gigabyte, possui 12 colunas e 11.036.181 de registros sobre cotações.
-![Tickers Dataset](DataSet%20Tickers.png)
+![Tickers Dataset](images/DataSet%20Tickers.png)
 
 Ao clicar em “Ticker – Sample” a plataforma fornecerá um arquivo CSV com uma amostra dos dados do dataset.
-![Adicionar Dataset](DataSet%20Add.png)
+![Adicionar Dataset](images/DataSet%20Add.png)
 
 Ao abrir esse arquivo, podemos ver todos os atributos envolvidos e uma amostra de 5 registros do dataset.
 
