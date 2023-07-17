@@ -27,14 +27,17 @@ No menu lateral, clique no menu Marketplace <img src="images/logo_marketplace.pn
 Neste exemplo, iremos fazer uso da base do Yahoo Finance.
 
 Clique em __"View More"__ para visualizar os detalhes sobre a base. Antes de fazermos a carga da base para o esquema RAW, o qual é o primeiro esquema no Data Lake para a inclusão dos dados, vamos verificar o descritivo sobre a base.
+![Yahoo Finance](images/yahoo_finance.png)
 
 Trata-se de dados do Yahoo Finance que é um tipo de mídia que faz parte da rede do Yahoo. O Yahoo Finance fornece notícias, dados e comentários financeiros, incluindo cotações de ações, comunicados à imprensa, relatórios financeiros e conteúdo original. Ele também oferece algumas ferramentas online para gerenciar finanças pessoais.
 
 Observando as informações disponíveis no dataset, podemos ver que se trata especificamente de dados de cotações do mercado de ações americano.
 
 Podemos ver na lista de informações sobre o dataset que ele foi atualizado em 2023, contém uma série histórica desde 2000, o tamanho da base é de 1,5 Gigabyte, possui 12 colunas e 11.036.181 de registros sobre cotações.
+![Tickers Dataset](DataSet%20Tickers.png)
 
 Ao clicar em “Ticker – Sample” a plataforma fornecerá um arquivo CSV com uma amostra dos dados do dataset.
+![Adicionar Dataset](DataSet%20Add.png)
 
 Ao abrir esse arquivo, podemos ver todos os atributos envolvidos e uma amostra de 5 registros do dataset.
 
